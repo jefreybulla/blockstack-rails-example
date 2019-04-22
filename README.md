@@ -1,24 +1,5 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Dependencies of this app seems to have broken my local ruby environment. To avoid problems in local machine, create a folder-specific gemset before running the first time:
+$rvm use ruby-2.5.1@blockstack-rails-example --ruby-version —create
+$bundle install
